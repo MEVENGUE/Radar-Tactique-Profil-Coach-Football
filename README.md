@@ -92,6 +92,25 @@ Le projet inclut des exemples de radars tactiques générés pour les coaches su
 | **Simone Inzaghi** | ![Simone Inzaghi](./Output/Simone%20Inzaghi.jpg) |
 | **Will Still** | ![Will Still](./Output/Will%20Still.jpg) |
 | **Xavi Hernandez** | ![Xavi Hernandez](./Output/Xavi%20Hernandez.jpg) |
+<<<<<<< HEAD
+=======
+
+</div>
+
+---
+
+## 📊 Documentation et Analyses Tactiques
+
+Le projet inclut également des documents d'analyse tactique détaillés :
+
+<div align="center">
+
+![Analyse Tactique Football 1](./Readme%20Analyse%20Tactique%20Football_simple.png)
+
+![Analyse Tactique Football 2](./Readme%20Analyse%20Tactique%20Football_simple%20(2).png)
+
+![Analyse Tactique Football 3](./Readme%20Analyse%20Tactique%20Football_simple%20(3).png)
+>>>>>>> 5f11398 (Ajout des images d'analyse tactique dans le README)
 
 </div>
 
