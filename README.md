@@ -82,20 +82,16 @@ Le projet inclut des exemples de radars tactiques générés pour les coaches su
 
 ### Radars disponibles
 
-| Coach | Image |
-|-------|-------|
-| **Antonio Conte** | ![Antonio Conte](./Images/Antonio_Conte.jpg) |
-| **Mikel Arteta** | ![Mikel Arteta](./Images/Arteta.jpg) |
-| **Roberto De Zerbi** | ![Roberto De Zerbi](./Images/de_zerbi.jpg) |
-| **Pep Guardiola** | ![Pep Guardiola](./Images/guardiola.jpg) |
-| **Hansi Flick** | ![Hansi Flick](./Images/Hansi_Flick.jpg) |
-| **Simone Inzaghi** | ![Simone Inzaghi](./Images/inzaghi.jpg) |
-| **Jurgen Klopp** | ![Jurgen Klopp](./Images/Jurgen_Klopp.jpg) |
-| **Luis Enrique** | ![Luis Enrique](./Images/Luiz_Enrique.jpg) |
-| **Thomas Frank** | ![Thomas Frank](./Images/Thomas_frank.jpg) |
-| **Will Still** | ![Will Still](./Images/Will_Still.jpg) |
-| **Xabi Alonso** | ![Xabi Alonso](./Images/Xabi_Alonso.jpg) |
-| **Xavi Hernandez** | ![Xavi Hernandez](./Images/Xavi_Hernandez.jpg) |
+| Coach | Radar Tactique |
+|-------|----------------|
+| **Antonio Conte** | ![Antonio Conte](./Output/Antonio%20Conte.jpg) |
+| **Hansi Flick** | ![Hansi Flick](./Output/Hansi%20Flick.jpg) |
+| **Jurgen Klopp** | ![Jurgen Klopp](./Output/Jurgen%20Klopp.jpg) |
+| **Pep Guardiola** | ![Pep Guardiola](./Output/Pep%20Guardiola.jpg) |
+| **Roberto De Zerbi** | ![Roberto De Zerbi](./Output/Roberto%20De%20Zerbi.jpg) |
+| **Simone Inzaghi** | ![Simone Inzaghi](./Output/Simone%20Inzaghi.jpg) |
+| **Will Still** | ![Will Still](./Output/Will%20Still.jpg) |
+| **Xavi Hernandez** | ![Xavi Hernandez](./Output/Xavi%20Hernandez.jpg) |
 
 </div>
 
