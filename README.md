@@ -92,7 +92,6 @@ Le projet inclut des exemples de radars tactiques générés pour les coaches su
 | **Simone Inzaghi** | ![Simone Inzaghi](./Output/Simone%20Inzaghi.jpg) |
 | **Will Still** | ![Will Still](./Output/Will%20Still.jpg) |
 | **Xavi Hernandez** | ![Xavi Hernandez](./Output/Xavi%20Hernandez.jpg) |
-=======
 
 </div>
 
