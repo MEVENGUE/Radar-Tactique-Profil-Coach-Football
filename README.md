@@ -111,7 +111,6 @@ Le projet inclut également des facteurs d'analyse tactique détaillés :
 
 ![Analyse Tactique Football 3](./Readme%20Analyse%20Tactique%20Football_simple%20(3).png)
 
-
 </div>
 
 ---
