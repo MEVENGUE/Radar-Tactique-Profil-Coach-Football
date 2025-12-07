@@ -101,7 +101,7 @@ Le projet inclut des exemples de radars tactiques générés pour les coaches su
 
 ## 📊 Documentation et Analyses Tactiques
 
-Le projet inclut également des documents d'analyse tactique détaillés :
+Le projet inclut également des facteurs d'analyse tactique détaillés :
 
 <div align="center">
 
@@ -110,7 +110,7 @@ Le projet inclut également des documents d'analyse tactique détaillés :
 ![Analyse Tactique Football 2](./Readme%20Analyse%20Tactique%20Football_simple%20(2).png)
 
 ![Analyse Tactique Football 3](./Readme%20Analyse%20Tactique%20Football_simple%20(3).png)
->>>>>>> 5f11398 (Ajout des images d'analyse tactique dans le README)
+
 
 </div>
 
