@@ -84,18 +84,18 @@ Le projet inclut des images pour les coaches suivants :
 
 | Coach | Image |
 |-------|-------|
-| **Antonio Conte** | ![Antonio Conte](./Images/Antonio_Conte.jpg) |
-| **Mikel Arteta** | ![Mikel Arteta](./Images/Arteta.jpg) |
-| **Roberto De Zerbi** | ![Roberto De Zerbi](./Images/de_zerbi.jpg) |
-| **Pep Guardiola** | ![Pep Guardiola](./Images/guardiola.jpg) |
-| **Hansi Flick** | ![Hansi Flick](./Images/Hansi_Flick.jpg) |
-| **Simone Inzaghi** | ![Simone Inzaghi](./Images/inzaghi.jpg) |
-| **Jurgen Klopp** | ![Jurgen Klopp](./Images/Jurgen_Klopp.jpg) |
-| **Luis Enrique** | ![Luis Enrique](./Images/Luiz_Enrique.jpg) |
-| **Thomas Frank** | ![Thomas Frank](./Images/Thomas_frank.jpg) |
-| **Will Still** | ![Will Still](./Images/Will_Still.jpg) |
-| **Xabi Alonso** | ![Xabi Alonso](./Images/Xabi_Alonso.jpg) |
-| **Xavi Hernandez** | ![Xavi Hernandez](./Images/Xavi_Hernandez.jpg) |
+| **Antonio Conte** | ![Antonio Conte](./Output/Antonio_Conte.jpg) |
+| **Mikel Arteta** | ![Mikel Arteta](./Output/Arteta.jpg) |
+| **Roberto De Zerbi** | ![Roberto De Zerbi](./Output/de_zerbi.jpg) |
+| **Pep Guardiola** | ![Pep Guardiola](./Output/guardiola.jpg) |
+| **Hansi Flick** | ![Hansi Flick](./Output/Hansi_Flick.jpg) |
+| **Simone Inzaghi** | ![Simone Inzaghi](./Output/inzaghi.jpg) |
+| **Jurgen Klopp** | ![Jurgen Klopp](./Output/Jurgen_Klopp.jpg) |
+| **Luis Enrique** | ![Luis Enrique](./Output/Luiz_Enrique.jpg) |
+| **Thomas Frank** | ![Thomas Frank](./Output/Thomas_frank.jpg) |
+| **Will Still** | ![Will Still](./Output/Will_Still.jpg) |
+| **Xabi Alonso** | ![Xabi Alonso](./Output/Xabi_Alonso.jpg) |
+| **Xavi Hernandez** | ![Xavi Hernandez](./Output/Xavi_Hernandez.jpg) |
 
 </div>
 
