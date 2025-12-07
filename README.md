@@ -139,5 +139,5 @@ https://www.coachingthecoaches.net/
 
 ## 🧩 Auteurs et Contributeurs
 
-Créé par @zekingdavinci pour le projet personnel d’analyse tactique.
+Créé par Franck MEVENGUE pour le projet personnel d’analyse tactique.
 Contributions bienvenues pour enrichir les styles, facteurs, ou automatiser la génération.
