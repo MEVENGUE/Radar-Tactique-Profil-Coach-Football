@@ -1,0 +1,155 @@
+# — Coach Info —
+coach_name = ""
+coach_age = 
+team_name = ""
+season = ""
+structure_offensive = ""
+structure_defensive = ""
+image_path = r"C:\Users\MEVENGUE Franck\Desktop\Projet code Perso\Radar Coach football\Images\.jpg"  # ← adapte à ton image
+
+# — Données tactiques —
+categories = {
+    "Formes de jeu": {
+        "Positionnalisme": , "Relationnisme": ,
+        "Fonctionnalisme": , "Jeu d’approche": 
+    },
+    "Défense organisée": {
+        "Compacité défensive": , "Marquage zonal": ,
+        "Ligne défensive": , "Couverture axiale": 
+    },
+    "Pressing": {
+        "Intensité pressing":     ,
+        "Déclencheurs pressing":  ,
+        "Rest-défense":           ,
+        "Orientation pressing":   ,
+        "Contre-pressing":        
+    },
+    "Transitions défensives": {
+        "Temps de repli":           ,
+        "Contrôle du 2e ballon":    ,
+        "Agressivité immédiate":  ,
+        "temporisation":  ,
+        "Adaptation adversaire":     
+    },
+    "Construction du jeu": {
+        "Relance courte":       ,
+        "Sortie sous pression": ,
+        "Progression par passes":,
+        "Gardien impliqué":     
+    }
+}
+
+Voici une **explication claire de chaque facteur tactique** du radar football, avec leur **définition**, **objectif tactique**, et **exemples de méthodes de mesure ou d'observation** (analytique ou visuelle). Cette fiche te permettra de justifier leur usage et d'envisager leur quantification à l’aide de données ou de séquences vidéo :
+
+---
+
+### 🟦 1. Formes de jeu
+
+| **Facteur**         | **Définition**                                                    | **Analyse / Indicateur possible**                                                              |
+| ------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Positionnalisme** | Occupation rationnelle des espaces selon des zones fixes.         | % d’attaques en structure figée, largeur constante, présence dans les 5 couloirs.              |
+| **Relationnisme**   | Création d’avantages par la fluidité des relations entre joueurs. | Nombre de triangles actifs, interactions latérales-axiales, joueurs "libres entre les lignes". |
+| **Fonctionnalisme** | Adaptation des comportements au rôle ou au moment du jeu.         | Joueurs dans des rôles bien définis (pivot, relayer, etc.), changement selon phase.            |
+| **Jeu d’approche**  | Style de progression basé sur des petites passes, proximité.      | Séquences >4 passes en zone médiane, % d’attaques "construites".                               |
+
+---
+
+### 🟩 2. Défense organisée
+
+| **Facteur**             | **Définition**                                                       | **Analyse / Indicateur possible**                                                   |
+| ----------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **Compacité défensive** | Réduction des distances verticales et horizontales entre les lignes. | Distance moyenne entre lignes (GPS ou tracking), densité autour du ballon.          |
+| **Marquage zonal**      | Défense par zone plutôt qu’individuelle.                             | % d’actions où le joueur défend une zone (tracking), faible ratio de duels directs. |
+| **Ligne défensive**     | Hauteur moyenne de la ligne de défense.                              | Hauteur en mètres par rapport au but sur pertes ou pressing adverse.                |
+| **Couverture axiale**   | Protection de l’axe du terrain.                                      | Nombre d'interceptions, % d’attaques adverses forcées vers l’extérieur.             |
+
+---
+
+### 🟧 3. Pressing
+
+| **Facteur**               | **Définition**                                                      | **Analyse / Indicateur possible**                                                  |
+| ------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **Intensité pressing**    | Fréquence et engagement dans la récupération haute.                 | PPDA (passes allowed per defensive action), zones de récupération.                 |
+| **Déclencheurs pressing** | Élément déclencheur du pressing (mauvais contrôle, passe latérale). | Nombre de pressings suite à trigger défini, nombre de récupérations dans les 5s.   |
+| **Rest-défense**          | Position des joueurs restés en protection quand l’équipe attaque.   | % de couverture défensive lors des attaques, ratio 1v1 ou 2v1 défensif post-perte. |
+| **Orientation pressing**  | Capacité à guider l’adversaire vers une zone voulue.                | Heatmap des pertes provoquées, % d’adversaires forcés côté faible.                 |
+| **Contre-pressing**       | Pressing immédiat après la perte du ballon.                         | Récupérations dans les 5 sec post-perte, actions adverses avant récupération.      |
+
+---
+
+### 🟥 4. Transitions défensives
+
+| **Facteur**               | **Définition**                                                    | **Analyse / Indicateur possible**                                                  |
+| ------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **Temps de repli**        | Vitesse et efficacité du retour défensif après perte.             | Temps moyen pour reformation du bloc, distance parcourue en repli.                 |
+| **Contrôle du 2e ballon** | Maîtrise des ballons après un duel ou une déviation.              | Ratio de récupération après duel aérien, % de possession après dégagement.         |
+| **Agressivité immédiate** | Intensité de pression dans les 5 sec après perte.                 | Taux de duels, fautes ou tacles dans cette fenêtre.                                |
+| **Temporisation**         | Capacité à ralentir l’attaque adverse après perte.                | % d’attaques adverses ralenties, temps gagné avant l'entrée dans le dernier tiers. |
+| **Adaptation adversaire** | Capacité à réagir à l'organisation de transition de l’adversaire. | Variabilité de la structure de repli selon le type d’adversaire ou zone de perte.  |
+
+---
+
+### 🟪 5. Construction du jeu
+
+| **Facteur**                | **Définition**                                                        | **Analyse / Indicateur possible**                                                   |
+| -------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **Relance courte**         | Démarrage du jeu depuis le gardien ou les centraux en passes courtes. | % de relances courtes / totales, nbre de passes avant franchissement du 1er rideau. |
+| **Sortie sous pression**   | Capacité à conserver et ressortir le ballon sous pression.            | % de réussite sous pression, passes progressives sous pression.                     |
+| **Progression par passes** | Avancée du ballon par jeu combiné.                                    | Distance moyenne gagnée par passe verticale, % de passes progressives réussies.     |
+| **Gardien impliqué**       | Contribution du gardien au jeu de possession.                         | Nbre de passes du gardien, implication dans circuits courts (xGChain).              |
+
+---
+
+### 🧠 En synthèse : comment les **quantifier** ?
+
+1. **Données tracking (GPS, STATS, Wyscout, Instat, Opta)** :
+
+   * Position des joueurs, distances, lignes défensives, densité, pressing.
+
+2. **Statistiques classiques et avancées** :
+
+   * PPDA, % de relance courte, passes sous pression, xT (Expected Threat), % duels gagnés.
+
+3. **Analyse vidéo (manuelle ou assistée IA)** :
+
+   * Comportements tactiques, zones de récupération, séquences types, déclencheurs, orientation pressing.
+
+4. **Annotation tactique** (si pas de data) :
+
+   * Analyse manuelle avec grille d’observation par match (5–10 critères par phase), notation sur 100.
+
+
+
+   Voici comment doit être structuré ton fichier Excel :
+
+Index	Valeur
+coach_name	...
+coach_age	...
+team_name	....
+season	....
+structure_offensive ...
+structure_defensive ...
+image_path	C:\Users\MEVENGUE Franck\Desktop\Projet code Perso\Radar Coach football\Images\.....jpg
+Positionnalisme	...
+Relationnisme	...
+Fonctionnalisme	...
+Jeu d’approche	...
+Compacité défensive	...
+Marquage zonal	...
+Ligne défensive	...
+Couverture axiale	...
+Intensité pressing	...
+Déclencheurs pressing	...
+Rest-défense	...
+Orientation pressing	...
+Contre-pressing	...
+Temps de repli	...
+Contrôle du 2e ballon	...
+Agressivité immédiate	...
+Temporisation	...
+Adaptation adversaire	...
+Relance courte	...
+Sortie sous pression	...
+Progression par passes	...
+Gardien impliqué	...
+
